@@ -1,0 +1,23 @@
+# Setup instructions
+
+## Option 1: Google Colab development environment
+
+Follow these steps to open a notebook in Colab.
+
+1. Go to [Google Colab](https://colab.research.google.com) and sign in.
+2. Choose Upload notebook → GitHub tab.
+3. Paste https://github.com/algolab-quantique/qest-hack26 and click the search icon.
+4. Click the notebook you want to open.
+5. **Important**: Click the "Copy to Drive" button in the toolbar at the top, otherwise your results will not be saved. A new version of the notebook will open in a new tab, and that’s the one you should work in.
+6. Uncomment the first cell of the notebook and execute it to install all the Python dependencies in the Colab environment.
+
+## Option 2: Local development environment
+
+Follow these steps if you want to run the notebook locally.
+
+1. Clone the repository https://github.com/algolab-quantique/qest-hack26 on your local drive and open the folder `cd qest-hack26`.
+2. Create a Python virtual environment by running `python3 -m venv venv`. The notebook have been tested with Python versions 3.12 and 3.13.
+3. Activate your virtual environment `source venv/bin/activate` (Mac/Linux) or `source venv\Scripts\activate` (Windows).
+4. Install the Python dependencies `pip install -r requirements.txt`. Leave the first cell commented out, since it’s only needed on Colab.
+
+Happy QEst Hack!
